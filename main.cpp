@@ -16,7 +16,7 @@ int N, C;
 vector<Item> items;
 vector<pair<Chromosome, int>> population;
 
-// Gerador de números aleatórios global
+// Gerador de números aleatórios global testeteste
 random_device rd;
 mt19937 rng(rd()); // Inicializa com uma semente aleatória do hardware
 uniform_real_distribution<double> dist(0.001, 0.999); // Intervalo ajustado
